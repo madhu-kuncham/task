@@ -1,0 +1,20 @@
+ 
+  .rect{
+  min-height: 500px; /* set height as you need */
+  display: flex;
+  flex-direction: column;
+  background: grey;
+  }
+
+  #small-rect{
+    margin-top: auto;
+  background: green;
+  height: 50px;
+  }
+
+  span{
+      background-color: red;
+      height: 20px;
+      width:30px;
+      border: 1px solid black;
+  }
