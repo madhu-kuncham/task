@@ -7,7 +7,6 @@
   }
 
   #small-rect{
-    margin-top: auto;
   background: green;
   height: 50px;
   }
@@ -15,6 +14,12 @@
   span{
       background-color: red;
       height: 20px;
-      width:30px;
+      width:50px;
       border: 1px solid black;
+      margin: 0 auto;
   }
+
+  span:first-child {
+    margin-top: auto;  
+  }
+
